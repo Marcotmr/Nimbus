@@ -1,0 +1,24 @@
+#pythoncode
+import random
+def nimbus():
+  while True:
+    A= random.randint(1,9)
+    B= random.randint(1,9)
+    C = A*B
+    if C == 4:
+      print(A,B,"Success")
+      break
+    else: print(A,C)
+
+nimbus()
+
+#SQL
+SELECT email 
+FROM public.email_table
+JOIN 
+public.data_table 
+ON 
+data_table.join_id = email_table.join_id
+WHERE column_1/2=5
+AND column_2 < column_1
+AND column_3 LIKE '%1';
